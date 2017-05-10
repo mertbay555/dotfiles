@@ -65,3 +65,9 @@ $ sudo pip install -U tensorflow-gpu
 ```
 $ sudo pip install keras
 ```
+
+## To uninstall all nvidia drivers
+```
+sudo apt-get remove --purge nvidia-*
+sudo apt-get install ubuntu-desktop
+```
