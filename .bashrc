@@ -110,6 +110,7 @@ export EDITOR="vim"
 export CUDA_ROOT=/usr/local/cuda
 export CUDA_BIN=$CUDA_ROOT/bin
 export CUDA_LIB=$CUDA_ROOT/lib64
+export NVIDIA_LIB=/usr/lib/nvidia-381
 
 export PATH=$CUDA_BIN:$PATH
-export LD_LIBRARY_PATH=$CUDA_LIB:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=$NVIDIA_LIB:$CUDA_LIB:$LD_LIBRARY_PATH
